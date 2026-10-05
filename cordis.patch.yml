@@ -1,0 +1,8 @@
+# dsh-session-shred bundle patch.
+#
+# When installed through `dsh plugin --profile <name> add`, the loader appends
+# this plugin to the bundle stack. For a local (file:) install, the profile's
+# package.json `dsh.profile.bundles` must also list "dsh-session-shred".
+- insert:
+    - id: dsh-session-shred
+      name: 'dsh-session-shred'
