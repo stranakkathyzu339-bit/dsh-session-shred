@@ -1,7 +1,7 @@
 {
   "name": "dsh-session-shred",
   "version": "1.0.0",
-  "description": "为 DSH 增加「永久删除会话」功能：从磁盘彻底删除会话日志与投影缓存，不可找回。",
+  "description": "为 DSH 增加「删除会话」功能：从磁盘彻底删除会话日志，不可找回。",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
